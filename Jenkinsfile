@@ -8,7 +8,7 @@ pipeline {
           git branch : 'main' , url : 'https://github.com/aryapandey0/Java-CI.git'
         }
       }
-      stage('Build){
+      stage('Build'){
             steps{
               sh 'mvn clean package'}
             }
